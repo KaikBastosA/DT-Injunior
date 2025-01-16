@@ -1,7 +1,4 @@
-function calcDelt(a, b, c) {
-    return b * b - 4 * a * c;
-}
-
+let calcDelt = (a, b, c) => b * b - 4 * a * c;
 
 function getRoot(a, b, c) {
     let delta = calcDelt(a, b, c);
