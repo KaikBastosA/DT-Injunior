@@ -7,4 +7,7 @@ function convert(currency) {
 }
 
 let currency = parseFloat(prompt("Digite o valor em reais para converter em euro/dólar: "));
+if (isNaN(currency)) {
+    console.log("Insira um número válido.");
+}
 convert(currency);
